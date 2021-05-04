@@ -6,11 +6,11 @@ import colors from '../constants/colors';
 export const Butoon = ({onPress, text}) => {
     return (
    <TouchableOpacity onPress={onPress} style={styles.button}>
-       <Image 
-       source={require('../assets/images/reverse.png')}
+       {/* <Image 
+       source={require('../../assets/images/reverse.png')}
        style={styles.buttonIcon}
        resizeMode="contain" 
-        />
+        /> */}
 
        <Text style = {styles.buttonText}>{text}</Text>
    </TouchableOpacity>

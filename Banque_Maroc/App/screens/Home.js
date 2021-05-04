@@ -41,7 +41,7 @@ export default  ({navigation}) => {
           <View style={styles.content}>
 
           <View style={styles.logoContainer}>
-            <Image  source={require('../assets/images/bank.png')} style={styles.logo} />
+            {/* <Image  source={require('../../assets/images/bank.png')} style={styles.logo} /> */}
           </View>
 
           <Text style={styles.textHeader}>Currency Converter</Text>
